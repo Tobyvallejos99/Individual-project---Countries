@@ -1,0 +1,28 @@
+.Paginated__List {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+    padding-bottom: 5rem;
+}
+
+.Paginated__Number {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(204, 3, 3);
+    padding: .5rem;
+    border: none;
+    border-radius:  .6rem;
+    transition: .6s;
+}
+
+.Paginated__Number:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #6d3602;
+}

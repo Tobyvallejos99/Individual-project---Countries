@@ -1,0 +1,55 @@
+.landingPage {
+  background-image: url('https://i.pinimg.com/originals/09/1e/f5/091ef57551b116e90cde03a2de3363c8.gif');
+  background-size: cover;
+  background-position: center 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing__box {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 1rem;
+  margin-top: -400px;
+  background: -webkit-linear-gradient(45deg, #006be6, #5a025a, #04a0a0);
+
+}
+
+
+.landing__title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  margin: 10;
+  padding: 0;
+}
+
+.landing__button {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000000;
+  background-color: #1c1c1c;
+  background-image: radial-gradient(circle at center, #ffffff 0%, #1c1c1c 120%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.landing__button:hover {
+  background-color: #2d2d2d;
+  background-image: radial-gradient(circle at center, #ffffff 0%, #2d2d2d 120%);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.landing__button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #d10000, 0 0 0 4px #1c1c1c, 0 6px 8px rgba(0, 0, 0, 0.3);
+}
